@@ -1,0 +1,20 @@
+.root{
+    -fx-font-size: 20px;
+    -fx-font-family: "Andale Mono";
+    -fx-font-weight: bold;
+    -fx-background-insets: 0;
+}
+.button{
+    -fx-background-radius: 4;
+}
+.text-field{
+    -fx-background-color: #77797A;
+    -fx-background-radius: 2;
+}
+.button:hover{
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 0);
+}
+.hint-field{
+    -fx-background-color: #9ACD32;
+    -fx-background-radius: 2;
+}
